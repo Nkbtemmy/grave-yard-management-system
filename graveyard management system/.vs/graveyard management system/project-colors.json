@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "79b0d489-0e19-4f7f-8a69-2c02cdcad7bc": {
+      "ProjectGuid": "79b0d489-0e19-4f7f-8a69-2c02cdcad7bc",
+      "DisplayName": "graveyard management system",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
