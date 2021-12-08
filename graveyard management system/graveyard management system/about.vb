@@ -17,11 +17,11 @@
     End Sub
 
     Private Sub RegistrantsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RegistrantsToolStripMenuItem.Click
-        'registrants.Show()
+        frmRegistrant.Show()
         Me.Hide()
     End Sub
 
-    Private Sub about_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
+
+
 End Class

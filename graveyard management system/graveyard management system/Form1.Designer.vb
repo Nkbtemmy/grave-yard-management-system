@@ -31,8 +31,10 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(207, 195)
+        Me.Label1.Image = Global.graveyard_management_system.My.Resources.Resources.heaven
+        Me.Label1.Location = New System.Drawing.Point(209, 187)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(363, 37)
         Me.Label1.TabIndex = 1
@@ -45,13 +47,14 @@ Partial Class Form1
         Me.Button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Button1.Location = New System.Drawing.Point(330, 274)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(137, 33)
+        Me.Button1.Size = New System.Drawing.Size(159, 33)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Click Here To Login"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'PictureBox1
         '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Gray
         Me.PictureBox1.BackgroundImage = Global.graveyard_management_system.My.Resources.Resources.RIP1
         Me.PictureBox1.Image = Global.graveyard_management_system.My.Resources.Resources.RIP
         Me.PictureBox1.Location = New System.Drawing.Point(313, 12)
@@ -65,7 +68,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.graveyard_management_system.My.Resources.Resources._5ECFCE_1
+        Me.BackgroundImage = Global.graveyard_management_system.My.Resources.Resources.heaven
         Me.ClientSize = New System.Drawing.Size(807, 450)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button1)

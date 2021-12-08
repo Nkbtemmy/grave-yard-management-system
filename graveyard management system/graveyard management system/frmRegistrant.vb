@@ -1,13 +1,4 @@
-﻿Public Class registrant
-    Dim Id As String = Nothing
-    Public Sub New(ByRef Id As String)
-
-        ' This call is required by the designer.
-        InitializeComponent()
-        Me.Id = Id
-        ' Add any initialization after the InitializeComponent() call.
-
-    End Sub
+﻿Public Class frmRegistrant
     Private Sub HomeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HomeToolStripMenuItem.Click
         frmLogin.Show()
         Me.Hide()
@@ -22,6 +13,7 @@
         dead_people.Show()
         Me.Hide()
     End Sub
+
 
 
     Private Sub AboutUsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutUsToolStripMenuItem.Click
@@ -41,7 +33,7 @@
             MsgBox("Passwords must much")
         Else
 
-            query &= "INSERT INTO Registrants (First_name,Second_name,Email,Password)"
+            query &= "INSERT INTO Registrants(First_Name,Second_Name,Email,Password)"
             query &= "VALUES (@firstName,@secondName,@email,@password)"
 
             cm = New OleDb.OleDbCommand
@@ -73,7 +65,6 @@
             End Try
         End If
     End Sub
-
     Private Sub View()
         Try
             Dim sql As String
@@ -94,7 +85,7 @@
         End Try
     End Sub
 
-    Private Sub registrants_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub frmRegistrant_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Call connection()
         View()
     End Sub

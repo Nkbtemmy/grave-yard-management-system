@@ -15,5 +15,6 @@ D:\CST\CSE(3)\semister_2\software design and development lab\projects\graveyard 
 D:\CST\CSE(3)\semister_2\software design and development lab\projects\graveyard management system\graveyard management system\graveyard management system\obj\Debug\graveyard_management_system.frmForget.resources
 D:\CST\CSE(3)\semister_2\software design and development lab\projects\graveyard management system\graveyard management system\graveyard management system\obj\Debug\graveyard_management_system.about.resources
 D:\CST\CSE(3)\semister_2\software design and development lab\projects\graveyard management system\graveyard management system\graveyard management system\obj\Debug\graveyard_management_system.dead_people.resources
-D:\CST\CSE(3)\semister_2\software design and development lab\projects\graveyard management system\graveyard management system\graveyard management system\obj\Debug\graveyard_management_system.registrants.resources
 D:\CST\CSE(3)\semister_2\software design and development lab\projects\graveyard management system\graveyard management system\graveyard management system\obj\Debug\graveyard_management_system.represent.resources
+D:\CST\CSE(3)\semister_2\software design and development lab\projects\graveyard management system\graveyard management system\graveyard management system\obj\Debug\graveyard_management_system.frmRegistrant.resources
+D:\CST\CSE(3)\semister_2\software design and development lab\projects\graveyard management system\graveyard management system\graveyard management system\obj\Debug\graveyard_management_system.registrant.resources
